@@ -1,3 +1,16 @@
+.iklan{
+    display: flex;
+    gap: 20px;
+    margin-left: 15%;
+}
+.iklan img{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: black;
+    margin-top: 40px;
+}
 .categori{
     justify-content: center;
     gap: 20px;
@@ -28,7 +41,7 @@ h3{
     gap:10px;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 .card{
     width: 16rem;
@@ -82,4 +95,26 @@ h3{
     color: #fff;
     text-decoration: none;
 }
-         
+nav{
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}        
+ul{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+body{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul a{
+    color: #eee;
+    text-decoration: none;
+}
